@@ -11,8 +11,12 @@ header {
     padding: 0 10%;
 }
 
+.image{
+    height: 80%;
+}
+
 .menu a {
-    color: #ff4ca2;
+    color: #03b724;
 }
 
 /* Body ************************************/
@@ -39,7 +43,7 @@ h1 {
 }
 
 h2 {
-    color: #ff4ca2;
+    color: #03b724;
     font-family: courier;
 }
 
@@ -58,7 +62,6 @@ h2 {
 
 footer {
     font-size: 5px;
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
+    float: right;
+    margin-right: 5px;
 }
