@@ -1,67 +1,71 @@
 /* Header ************************************/ 
 
 header {
-    background-color: #404040;
-    flex-direction: row;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    text-align: min-width;
-    padding: 0 10%;
-}
-
-.image{
-    height: 80%;
+  background-color: #3bb878;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  align-items: top;
+  height: 50px;
+  text-align: min-width;
+  padding: 0 10%;
+  font-family: 'Playfair Display', serif;
+  border-radius: 5px;
 }
 
 .menu a {
-    color: #03b724;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Body ************************************/
 
 #body {
-    text-align: center;
-    margin: 0 10%;
+  text-align: center;
+  margin: 0 10%;
+  font-family: 'Playfair Display', serif;
 }
 
 body {
-    background-image: url(../images/background.png); 
+  background-image: url(../images/background.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .top {
-    text-align: left;
-    margin: 50px 0 50px;
+  text-align: left;
+  margin: 50px 100px 100px;
+}
+
+.profileImage {
+  float: left;
+  margin: 0px 15px 15px 0px;
+  border-radius: 5px;
 }
 
 h1 {
-    font-weight: 666;
-    margin-top: 20px;
-    font-family: courier;
-    margin-bottom: 0 50px;
+  font-weight: 666;
+  margin-top: 20px;
+  margin-bottom: 0 50px;
 }
 
 h2 {
-    color: #03b724;
-    font-family: courier;
-}
-
-.middle {
-    display: inline;
-    padding: 0 25px;
+  color: #3bb878;
 }
 
 .wiki {
-    margin: 50px;
-    font-family: courier;
-    color: black
+  margin: 50px;
+  color: black
 }
 
 /* Footer ************************************/
 
 footer {
-    font-size: 5px;
-    float: right;
-    margin-right: 5px;
+  font-size: 5px;
+  margin-right: 5px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 15px;
 }
