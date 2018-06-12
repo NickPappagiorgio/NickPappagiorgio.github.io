@@ -1,1 +1,1 @@
-[I'am a link to the page](https://nickpappagiorgio.github.io/)
+[Feel free to check out my homepage!](https://nickpappagiorgio.github.io/)
