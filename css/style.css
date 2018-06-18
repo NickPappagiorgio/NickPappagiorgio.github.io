@@ -71,7 +71,7 @@ h3 {
 .pdf {
   width: auto;
   padding: 0.5rem;
-  height: 2rem;
+  height: auto;
   border-radius: 0.5rem;
 }
 
