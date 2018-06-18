@@ -39,7 +39,8 @@ body {
   font-size: 20px;
 }
 
-.top {
+.top,
+.bottom {
   text-align: left;
   margin: 50px 100px 100px;
 }
@@ -57,13 +58,27 @@ h1 {
   margin-bottom: 0 50px;
 }
 
-h2 {
+h2,
+h3 {
   color: #3bb878;
 }
 
 .wiki {
   margin: 50px;
   color: black;
+}
+
+.pdf {
+  width: auto;
+  padding: 0.5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.pdf > a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 .footer {
