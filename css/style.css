@@ -1,6 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background: whitesmoke;
 }
 
 header {
@@ -9,11 +14,10 @@ header {
   justify-content: space-between;
   position: fixed;
   top: 0;
+  padding: 0.8rem;
   width: 100%;
   background: #3bb878;
   background-image: linear-gradient(139deg, #00c4cc 0%, #3bb878 100%);
-  font-family: 'Playfair Display', serif;
-  border-radius: 0 0 10px 10px;
 }
 
 .main-logo,
@@ -23,84 +27,65 @@ header {
   align-items: center;
 }
 
-.main-logo {
-  margin-left: 15px;
+.main,
+.menu {
+  margin: 0 15px;
 }
 
-#container {
-  text-align: center;
-  margin: 25px 69px;
-  font-family: 'Playfair Display', serif;
+.main-logo img,
+.logo img {
+  width: 1.6rem;
 }
 
-body {
-  display: grid;
-  background: whitesmoke;
-  font-size: 20px;
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.top,
-.bottom {
-  text-align: left;
-  margin: 50px 100px 100px;
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+  max-width: 620px;
+}
+
+.top {
+  margin: 15px 15px 15px 0px;
 }
 
 .profileImage {
   float: left;
-  margin: 15px 15px 15px 0px;
+  margin: 0 15px 15px 0px;
   border-radius: 5px;
   min-width: 200px;
 }
 
-h1 {
-  font-weight: 666;
-  margin-top: 20px;
-  margin-bottom: 0 50px;
-}
-
 h2,
-h3 {
+h3,
+h4 {
   color: #3bb878;
-}
-
-.wiki {
-  margin: 50px;
-  color: black;
 }
 
 .pdf {
   width: auto;
-  padding: 0.5rem;
   height: auto;
+  padding: 0.5rem;
   border-radius: 0.5rem;
 }
 
 .pdf > a {
   text-decoration: none;
-  color: black;
   cursor: pointer;
 }
 
 .footer {
   display: flex;
+  margin: 15px 15px 5px 0;
+  height: 100%;
+  width: 100%;
   justify-content: space-between;
   align-items: flex-end;
   font-size: 5px;
-  margin: 15px 15px 5px 0;
-  height: 100%;
-}
-
-.footer-txt {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-
-.footer-txt p {
-  margin-right: 2px;
-}
-
-.footer-txt p,
-.footer-txt a {
-  display: contents;
 }
