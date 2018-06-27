@@ -68,13 +68,20 @@ h4 {
 }
 
 .pdf {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.pdf button {
   width: auto;
   height: auto;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  margin: 1rem;
 }
 
-.pdf > a {
+button a {
   text-decoration: none;
   cursor: pointer;
 }
@@ -84,7 +91,7 @@ h4 {
   margin: 15px 15px 5px 0;
   height: 100%;
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-end;
   flex-wrap: wrap;
   font-size: 5px;
