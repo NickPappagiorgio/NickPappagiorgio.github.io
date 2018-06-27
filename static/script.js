@@ -1,6 +1,5 @@
-myFunction = () => {
+let myFunction = () =>
   document.querySelector('#myDropdown').classList.toggle('show');
-};
 
 window.onclick = event => {
   if (!event.target.matches('.dropbtn')) {
